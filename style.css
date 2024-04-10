@@ -20,6 +20,7 @@ html, body{
 input{
     width: 100%;
     padding: 10px 20px;
+    margin-bottom: 5vh;
     font-size: 30px;
     font-weight: 500;
     border-radius: 50px;
@@ -33,7 +34,6 @@ input{
     gap: 20px;
 }
 .char{
-    margin-top: 15px;
     width: fit-content;
     display: flex;
     flex-direction: column;
@@ -51,4 +51,18 @@ input{
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+@media (max-width: 500px) {
+    input{
+        font-size: 1em;
+    }
+    #container{
+        margin: 5vh 7vw;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        transform: translate(-25%, -25%);
+    }
 }
