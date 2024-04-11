@@ -19,9 +19,9 @@ html, body{
 }
 input{
     width: 100%;
-    padding: 10px 20px;
+    padding: 1.7vh 2vw;
     margin-bottom: 5vh;
-    font-size: 30px;
+    font-size: 3.5vh;
     font-weight: 500;
     border-radius: 50px;
     border: 1px solid #e2d8d8;
@@ -31,7 +31,7 @@ input{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 2vw;
 }
 .char{
     width: fit-content;
@@ -42,9 +42,8 @@ input{
 .img{
     height: 7vw;
     width: 7vw;
-    background-color: royalblue;
     border-radius: 50%;
-    border: 1px solid #dadada;
+    border: 1px solid #000;
     overflow: hidden;
 }
 .img img{
@@ -54,15 +53,21 @@ input{
 }
 @media (max-width: 500px) {
     input{
-        font-size: 1em;
+        font-size: 0.7em;
     }
     #container{
-        margin: 5vh 7vw;
+        margin: 5vh 6vw;
         display: flex;
         flex-direction: column;
         position: absolute;
         top: 25%;
         left: 25%;
         transform: translate(-25%, -25%);
+    }
+    .char{
+        margin: 0.5em 0.5em;
+    }
+    .char h3{
+        font-size: 0.7em;
     }
 }
