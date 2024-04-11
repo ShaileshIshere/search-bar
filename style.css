@@ -58,7 +58,6 @@ input{
     #container{
         height: 70%;
         width: 95%;
-        background-color: royalblue;
         margin: 1em 0;
         display: flex;
         flex-direction: column;
