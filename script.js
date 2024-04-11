@@ -14,7 +14,7 @@ var data = [
     {name: "ishida", src: "https://i.pinimg.com/236x/12/b5/4c/12b54ca54f843798d796c690907194ac.jpg"},
     {name: "ishkandar", src: "https://i.pinimg.com/236x/92/ec/5c/92ec5c193c9c69db554c8d67920019ed.jpg"},
     {name: "renji", src: "https://i.pinimg.com/236x/ff/90/21/ff90219888700845c89af179694920fb.jpg"},
-    {name: "Shikamaru", src: "https://i.pinimg.com/236x/6e/ee/ac/6eeeac066d3bb2beff680f95d531ee1e.jpg"},
+    {name: "shikamaru", src: "https://i.pinimg.com/236x/6e/ee/ac/6eeeac066d3bb2beff680f95d531ee1e.jpg"},
     {name: "kaido", src: "https://i.pinimg.com/236x/18/84/c3/1884c3be265e39e47f756671607a44bd.jpg"},
     {name: "riruka", src: "https://i.pinimg.com/236x/ee/17/62/ee17621f70ff93f6d5f5dbf8a894c6be.jpg"},
     {name: "shinji", src: "https://i.pinimg.com/236x/0f/b4/25/0fb425cb3d2bf09a5cd221c3f0006eb8.jpg"},
